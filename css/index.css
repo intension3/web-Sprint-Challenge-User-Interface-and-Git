@@ -8,18 +8,18 @@ header{
     padding-bottom: 10px;
 }
 header nav{
-    align-items: flex-end;
     display: flex;
+    align-items: flex-end;
     padding-bottom: 20px;
     width: 100%;
     
 }
 header nav ul{
+    margin:0;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
     width: 100%;
-    
 }
 header nav ul li{
     text-align: center;
@@ -30,7 +30,8 @@ nav a{
     font-weight: 800px;
 }
 header nav ul li a{
-    display: flex-end;
+    align-items: flex-end;
+    /* display: flex-end; */
     text-decoration: none;
     color: solid black;
     font-weight: 700px;
